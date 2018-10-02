@@ -1,0 +1,8 @@
+# Site settings
+title: PPNW
+email: simoncelli@ppnw.info
+description: Website of Physical Processes in Natural Waters
+baseurl: ""
+url: "http://www.ppnw.info"
+exclude: ["assets", "attachments"]
+#keep_files: ["img", "js", "app.css"]

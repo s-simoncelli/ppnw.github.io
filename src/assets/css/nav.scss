@@ -1,0 +1,42 @@
+// Navigation style
+
+.navbar-default {
+  // background: #FFF;
+  // border-bottom: 1px solid #CCC;
+  font-family: $font-family-serif;
+  font-weight: bold;
+  left:        0;
+  position:    absolute;
+  top:         0;
+  width:       100%;
+  @include transition(background-color 0.3s);
+  @include transform(translate3d(0, 0, 0));
+  &.is-fixed {
+    background:    rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid #CCCCCC;
+    position:      fixed;
+    top:           0;
+    @include transition(transform 0.3s);
+    .nav li a {
+      color:       $gray-dark;
+      text-shadow: 5px 5px 9px #FFFFFF;
+      &:hover, &:focus {
+        color: $brand-primary;
+      }
+    }
+  }
+  &.is-visible {
+    //@include transform(translate3d(0, 100%, 0));
+  }
+  .nav li a {
+    font-size:      15px;
+    // font-weight: 800;
+    letter-spacing: 1px;
+    // padding: 20px 20px 5px 20px;
+    // text-transform: uppercase;
+    // text-shadow: 5px 5px 9px #000;
+    &:hover {
+      // border-bottom: 2px solid $brand-primary;
+    }
+  }
+}

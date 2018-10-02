@@ -1,0 +1,22 @@
+// Mixins
+
+@mixin transform($p) {
+  -webkit-transform: $p;
+  -moz-transform: $p;
+  -ms-transform: $p;
+  -o-transform: $p;
+  transform: $p;
+
+}
+@mixin  transition-all() {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+@mixin background-size($p) {
+    -webkit-background-size: $p;
+    -moz-background-size: $p;
+    background-size: $p;
+    -o-background-size: $p;
+}
