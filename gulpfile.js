@@ -13,7 +13,7 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     watch = require('gulp-watch');
 
-const destination = 'site',
+const destination = 'ppnw-website', // Git submodule
       source = 'src',
       assets = source + '/assets';
 
