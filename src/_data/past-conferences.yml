@@ -1,6 +1,9 @@
 - year: 2020
   name: "University of British Columbia, Vancouver, Canada on June 15-19th, 2020"
   next: true
+  url:
+    href: http://ppnw2020.ca
+    title: Website
 
 - year: 2019
   name: Three Gorges Dam, China
@@ -8,7 +11,7 @@
 - year: 2018
   name: Solothurn, Switzerland
   url:
-      href: /files/PPNW2018.pdf
+      href: http://www.unige.ch/PPNW2018/
       title: Website
 
 - year: 2017
