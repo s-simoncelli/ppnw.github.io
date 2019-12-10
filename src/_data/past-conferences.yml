@@ -1,0 +1,93 @@
+- year: 2020
+  name: "University of British Columbia, Vancouver, Canada on June 15-19th, 2020"
+  next: true
+
+- year: 2019
+  name: Three Gorges Dam, China
+
+- year: 2018
+  name: Solothurn, Switzerland
+  url:
+      href: http://www.unige.ch/PPNW2018
+      title: Website
+
+- year: 2017
+  name: Helsinki, Finland
+  url:
+    href: http://www.unige.ch/PPNW2017
+    title: Extended abstracts
+
+- year: 2016
+  name: Bath, UK
+  url:
+    href: http://www.unige.ch/PPNW2016
+    title: Proceedings
+
+- year: 2015
+  name: Landau, Germany
+  url:
+    href: http://www.unige.ch/PPNW2015
+    title: Extended abstracts
+
+- year: 2014
+  name: Trento, Italy
+  url:
+    href: http://www.unige.ch/PPNW2014
+    title: Proceedings
+
+- year: 2013
+  name: Queensland, Australia
+
+- year: 2011
+  name: Canada, 2011
+  url:
+    href: http://www.unige.ch/PPNW2011
+    title: Proceedings
+
+- year: 2010
+  name: Reykjavík, Iceland
+
+- year: 2009
+  name: Palermo, Italy
+
+- year: 2008
+  name: Lake Tahoe, USA
+
+- year: 2007
+  name: Warnemuende, Germany
+  url:
+    href: http://www.unige.ch/PPNW2007
+    title: Proceedings
+
+- year: 2006
+  name: Granada, Spain
+
+- year: 2005
+  name: Lancaster, UK
+
+- year: 2004
+  name: Lund, Sweden
+
+- year: 2003
+  name: Petrozavodsk, Russia
+  url:
+    href: http://www.unige.ch/PPNW2003
+    title: Proceedings
+
+- year: 2001
+  name: Girona, Spain
+
+- year: 2000
+  name: Irkutsk, Russia
+
+- year: 1999
+  name: Estonia
+
+- year: 1998
+  name: Magdeburg, Germany
+
+- year: 1997
+  name: Ispra, Italy
+
+- year: 1996
+  name: Kastanienbaum, Switzerland

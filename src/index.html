@@ -45,148 +45,22 @@ title: Physical Processes in Natural Waters Workshop
         <li>Alfred Wüest, EPFL, Lausanne, Switzerland</li>
         <li>Ram Yerubandi, Canada Centre for Inland Waters, Burlington, Canada</li>
     </ul>
-
+    <!--    Next workshop:-->
     <h3>Past conferences</h3>
     <div class="timeline">
-        <div class="block-container left highlight">
+        {% assign class = "left" %}
+
+        {% for conf in site.data.past-conferences %}
+        <div class="block-container {{ class }} {% if conf.next %} highlight{% endif %}">
             <div class="description">
-                <h2>2020</h2>
-                <i>Next workshop:</i> University of British Columbia, Vancouver, Canada on June 15-19th, 2020
+                <h2>{{ conf.year }}</h2>
+                {% if conf.next %} <i>Next workshop:</i> {% endif %}
+                {{ conf.name }}
+                {% if conf.url %}<br/><a href="{{ conf.url.href }}">{{ conf.url.title }}</a>{% endif %}
             </div>
         </div>
-        <div class="block-container right">
-            <div class="description">
-                <h2>2019</h2>
-                Three Gorges Dam, China
-            </div>
-        </div>
-        <div class="block-container left">
-            <div class="description">
-                <h2>2018</h2>
-                2018 - Solothurn, Switzerland<br/>
-                <a href="http://www.unige.ch/PPNW2018/">Website</a>
-            </div>
-        </div>
-        <div class="block-container right">
-            <div class="description">
-                <h2>2017</h2>
-                Helsinki, Finland<br/>
-                <a href="/files/PPNW2017.pdf">Extended abstracts</a>
-            </div>
-        </div>
-        <div class="block-container left">
-            <div class="description">
-                <h2>2016</h2>
-                Bath, UK <br/>
-                <a href="/files/PPNW2016.pdf">Proceedings</a>
-            </div>
-        </div>
-        <div class="block-container right">
-            <div class="description">
-                <h2>2015</h2>
-                Landau, Germany<br/>
-                <a href="/files/PPNW2015.pdf">Extended abstracts</a>
-            </div>
-        </div>
-        <div class="block-container left">
-            <div class="description">
-                <h2>2014</h2>
-                Trento, Italy<br/>
-                <a href="/files/PPNW2014.pdf">Proceedings</a>
-            </div>
-        </div>
-        <div class="block-container right">
-            <div class="description">
-                <h2>2013</h2>
-                Queensland, Australia
-            </div>
-        </div>
-        <div class="block-container left">
-            <div class="description">
-                <h2>2011</h2>
-                Canada, 2011<br/>
-                <a href="/files/PPNW2011.pdf">Proceedings</a>
-            </div>
-        </div>
-        <div class="block-container right">
-            <div class="description">
-                <h2>2010</h2>
-                Reykjavík, Iceland
-            </div>
-        </div>
-        <div class="block-container left">
-            <div class="description">
-                <h2>2009</h2>
-                Palermo, Italy
-            </div>
-        </div>
-        <div class="block-container right">
-            <div class="description">
-                <h2>2008</h2>
-                Lake Tahoe, USA
-            </div>
-        </div>
-        <div class="block-container left">
-            <div class="description">
-                <h2>2007</h2>
-                Warnemuende, Germany<br/>
-                <a href="/files/PPNW2007.pdf">Proceedings</a>
-            </div>
-        </div>
-        <div class="block-container right">
-            <div class="description">
-                <h2>2006</h2>
-                Granada, Spain
-            </div>
-        </div>
-        <div class="block-container left">
-            <div class="description">
-                <h2>2005</h2>
-                Lancaster, UK
-            </div>
-        </div>
-        <div class="block-container right">
-            <div class="description">
-                <h2>2004</h2>
-                Lund, Sweden
-            </div>
-        </div>
-        <div class="block-container left">
-            <div class="description">
-                <h2>2003</h2>
-                Petrozavodsk, Russia<br/>
-                <a href="/files/PPNW2003.pdf">Proceedings</a>
-            </div>
-        </div>
-        <div class="block-container right">
-            <div class="description">
-                <h2>2001</h2>
-                Girona, Spain
-            </div>
-        </div>
-        <div class="block-container left">
-            <div class="description">
-                <h2>2000</h2>
-                Irkutsk, Russia
-            </div>
-        </div>
-        <div class="block-container right">
-            <div class="description">
-                <h2>1999</h2>
-                Estonia
-            </div>
-        </div>
-        <div class="block-container left">
-            <div class="description">
-                <h2>1998</h2>
-                Magdeburg, Germany
-            </div>
-        </div>
-        <div class="block-container right">
-            <div class="description">
-                <h2>1996</h2>
-                Kastanienbaum, Switzerland
-            </div>
-        </div>
+
+        {% if class == "left" %} {% assign class = "right" %}  {% else %} {% assign class = "left" %} {% endif %}
+        {% endfor %}
     </div>
 </div>
