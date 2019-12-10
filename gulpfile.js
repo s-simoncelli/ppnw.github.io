@@ -80,7 +80,6 @@ gulp.task('watch', function() {
     watch([source + '/attachments/*'], ['copy']);
     watch([assets + '/img/*'], ['images']);
     watch([assets + '/js/*'], ['uglify']);
-    done();
 });
 
 // Clean up destination folder
