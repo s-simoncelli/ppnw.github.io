@@ -133,6 +133,11 @@ hr {
     padding:          10px 20px;
     position:         relative;
   }
+  .image {
+    border-radius: $border-radius;
+    height:        100px;
+    width:         auto;
+  }
   h2 {
     font-size:  20px;
     margin-top: 0;

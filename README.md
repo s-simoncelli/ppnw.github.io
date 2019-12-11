@@ -26,6 +26,9 @@ Edit the file in `src/_data/past-conferences.yml` following the YAML syntax. Sup
 - year: the year when the conference was or will be held
 - where: the country and city
 - next: set to true to mark the block as the next conference
+- image: this field contains the following nested fields:
+    - fileName: name of the image file in the `src/assets/img` folder
+    - credits: Credits to the image
 - urls: this field is used to generated multiple URLS; each nested field can contain the following fields:
     - href: the URL of the link (for proceedings, extended abstracts or conference website)
     - title: the URL title

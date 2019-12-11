@@ -13,25 +13,37 @@
     credits: Yao YilongImaginechina/AP Images
   urls:
       - href: http://ppnw2019.cn
-        title: Website
+        title: Official website
         iconClass: "fas fa-globe-europe"
 
 - year: 2018
   where: Solothurn, Switzerland
+  image:
+    fileName: PPNW2018.jpg
+    credits: "N/A"
   urls:
       - href: http://www.unige.ch/PPNW2018/
-        title: Website
-        iconClass: "far fa-file-pdf"
+        title: Official website
+        iconClass: "fas fa-globe-europe"
 
 - year: 2017
-  where: Helsinki, Finland
+  where: Hyytiälä Forestry Field Station, Finland
+  image:
+    fileName: PPNW2017.jpg
+    credits: "Kaitaniemi, Pekka J"
   urls:
     - href: /files/PPNW2017.pdf
       title: Extended abstracts
       iconClass: "far fa-file-pdf"
+    - href: http://www.atm.helsinki.fi/ppnw2017/?q=node/1
+      title: Official website
+      iconClass: "fas fa-globe-europe"
 
 - year: 2016
   where: Bath, UK
+  image:
+    fileName: PPNW2016.jpg
+    credits: "Diego Delso"
   urls:
     - href: /files/PPNW2016.pdf
       title: Proceedings

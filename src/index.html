@@ -42,14 +42,14 @@ title: Physical Processes in Natural Waters Workshop
             <div class="description">
                 <h2>{{ conf.year }}</h2>
 
-                <div class="d-flex bd-highlight">
+                <div class="d-flex">
                     {% if conf.image %}
-                    <div class="p-2 flex-shrink-1 bd-highlight">
-                        <img src="img/{{ conf.image.fileName }}" title="Credits: {{ conf.image.credits }}" style="width:auto;height:100px"/>
+                    <div class="p-2 flex-shrink-1">
+                        <img src="img/{{ conf.image.fileName }}" title="Credits: {{ conf.image.credits }}" class="image"/>
                     </div>
                     {% endif %}
 
-                    <div class="">
+                    <div>
                         {% if conf.next %} <i>Next workshop:</i> {% endif %}
                         {{ conf.where }}
                         {% if conf.urls %}
