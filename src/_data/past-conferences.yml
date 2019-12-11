@@ -1,51 +1,62 @@
 - year: 2020
   where: "University of British Columbia, Vancouver, Canada on June 15-19th, 2020"
   next: true
-  url:
-    href: http://ppnw2020.ca
-    title: Website
+  urls:
+    - href: http://ppnw2020.ca
+      title: Website
+      iconClass: "fas fa-globe-europe"
 
 - year: 2019
-  where: Three Gorges Dam, China
+  where: Three Gorges Dam, Chinaurls
+  urls:
+      - href: http://ppnw2019.cn
+        title: Website
+        iconClass: "far fa-globe-europe"
 
 - year: 2018
   where: Solothurn, Switzerland
-  url:
-      href: http://www.unige.ch/PPNW2018/
-      title: Website
+  urls:
+      - href: http://www.unige.ch/PPNW2018/
+        title: Website
+        iconClass: "far fa-file-pdf"
 
 - year: 2017
   where: Helsinki, Finland
-  url:
-    href: /files/PPNW2017.pdf
-    title: Extended abstracts
+  urls:
+    - href: /files/PPNW2017.pdf
+      title: Extended abstracts
+      iconClass: "far fa-file-pdf"
 
 - year: 2016
   where: Bath, UK
-  url:
-    href: /files/PPNW2016.pdf
-    title: Proceedings
+  urls:
+    - href: /files/PPNW2016.pdf
+      title: Proceedings
+      iconClass: "far fa-file-pdf"
 
 - year: 2015
   where: Landau, Germany
-  url:
-    href: /files/PPNW2015.pdf
-    title: Extended abstracts
+  urls:
+    - href: /files/PPNW2015.pdf
+      title: Extended abstracts
+      iconClass: "far fa-file-pdf"
 
 - year: 2014
   where: Trento, Italy
-  url:
-    href: /files/PPNW2014.pdf
-    title: Proceedings
+  urls:
+    - href: /files/PPNW2014.pdf
+      title: Proceedings
+      iconClass: "far fa-file-pdf"
 
 - year: 2013
   where: Queensland, Australia
 
 - year: 2011
   where: Burlington, Canada
-  url:
-    href: /files/PPNW2011.pdf
-    title: Proceedings
+  urls:
+    - href: /files/PPNW2011.pdf
+      title: Proceedings
+      iconClass: "far fa-file-pdf"
 
 - year: 2010
   where: Reykjavík, Iceland
@@ -58,9 +69,10 @@
 
 - year: 2007
   where: Warnemuende, Germany
-  url:
-    href: /files/PPNW2007.pdf
-    title: Proceedings
+  urls:
+    - href: /files/PPNW2007.pdf
+      title: Proceedings
+      iconClass: "far fa-file-pdf"
 
 - year: 2006
   where: Granada, Spain
@@ -73,9 +85,10 @@
 
 - year: 2003
   where: Petrozavodsk, Russia
-  url:
-    href: /files/PPNW2003.pdf
-    title: Proceedings
+  urls:
+    - href: /files/PPNW2003.pdf
+      title: Proceedings
+      iconClass: "far fa-file-pdf"
 
 - year: 2001
   where: Girona, Spain
@@ -88,15 +101,17 @@
 
 - year: 1998
   where: Magdeburg, Germany
-  url:
-    href: /files/PPNW1998.pdf
-    title: Proceedings
+  urls:
+    - href: /files/PPNW1998.pdf
+      title: Proceedings
+      iconClass: "far fa-file-pdf"
 
 - year: 1997
   where: Ispra, Italy
 
 - year: 1996
   where: Kastanienbaum, Switzerland
-  url:
-    href: /files/PPNW1996.pdf
-    title: Proceedings
+  urls:
+    - href: /files/PPNW1996.pdf
+      title: Proceedings
+      iconClass: "far fa-file-pdf"

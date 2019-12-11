@@ -39,7 +39,11 @@ title: Physical Processes in Natural Waters Workshop
                 <h2>{{ conf.year }}</h2>
                 {% if conf.next %} <i>Next workshop:</i> {% endif %}
                 {{ conf.where }}
-                {% if conf.url %}<br/><a href="{{ conf.url.href }}">{{ conf.url.title }}</a>{% endif %}
+                {% if conf.urls %}
+                    {% for url in conf.urls %}
+                        <br/><i class="{{ url.iconClass }}"></i> <a href="{{ url.href }}">{{ url.title }}</a>
+                    {% endfor %}
+                {% endif %}
             </div>
         </div>
 

@@ -157,4 +157,39 @@ hr {
     }
   }
 }
+@media screen and (max-width: 600px) {
+  .timeline {
+    &::after {
+      left: 31px;
+    }
+
+    .block-container {
+      margin-bottom: 10px;
+      padding-left:  70px;
+      padding-right: 25px;
+      width:         100%;
+      &::before {
+        border:       medium solid #F2F2F2;
+        border-color: transparent #F2F2F2 transparent transparent;
+        border-width: 10px 10px 10px 0;
+        left:         60px;
+      }
+    }
+
+    .left::after, .right::after {
+      left: 15px;
+    }
+
+    .right {
+      left: 0;
+    }
+    .highlight {
+      &.left::before {
+        border:       medium solid $brand-primary;
+        border-color: transparent $brand-primary transparent transparent;
+        border-width: 10px 10px 10px 0;
+      }
+    }
+  }
+}
 
