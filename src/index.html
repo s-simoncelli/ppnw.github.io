@@ -21,7 +21,7 @@ title: Physical Processes in Natural Waters Workshop
         <li>
             {% if member.title %} <i>{{ member.title }}</i> &mdash; {% endif %}
             {% if member.email %}
-                <a href="mailto:{{ member.email }}">{{ member.name }}</a>
+                <a href="mailto:{{ member.email | url_encode }}">{{ member.name }}</a>
             {% else %}
                 {{ member.name }}
             {% endif %}
