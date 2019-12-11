@@ -33,7 +33,10 @@ gulp.task('sass', function() {
         .pipe(
             sass({
                 outputStyle: 'compressed',
-                includePaths: 'node_modules/bootstrap-sass/assets/stylesheets'
+                includePaths: [
+                    'node_modules/bootstrap-sass/assets/stylesheets',
+                    'node_modules/@fortawesome'
+                ]
             })
         )
         .pipe(gulp.dest(destination));
@@ -68,6 +71,9 @@ gulp.task('images').description = "Copy and minimise images";
 
 // Copy static files
 gulp.task('copy', function () {
+    gulp.src('node_modules/@fortawesome/fontawesome-free/webfonts/*')
+        .pipe(gulp.dest(destination + '/fonts'));
+
     return gulp.src(source + '/attachments/*')
         .pipe(gulp.dest(destination + '/files'));
 });
