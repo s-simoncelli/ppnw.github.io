@@ -8,10 +8,13 @@
 
 - year: 2019
   where: Three Gorges Dam, Chinaurls
+  image:
+    fileName: PPNW2019.jpg
+    credits: Yao YilongImaginechina/AP Images
   urls:
       - href: http://ppnw2019.cn
         title: Website
-        iconClass: "far fa-globe-europe"
+        iconClass: "fas fa-globe-europe"
 
 - year: 2018
   where: Solothurn, Switzerland
