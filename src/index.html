@@ -17,35 +17,18 @@ title: Physical Processes in Natural Waters Workshop
 
     <h3>International Steering Committee</h3>
     <ul>
-        <li>Chairman - <a href="mailto:bertram.boehrer@ufz.de">Bertram Boehrer</a>, Helmholtz Centre for Environmental
-            Research (UFZ), Germany
+        {% for member in site.data.committee %}
+        <li>
+            {% if member.title %} <i>{{ member.title }}</i> &mdash; {% endif %}
+            {% if member.email %}
+                <a href="mailto:{{ member.email }}">{{ member.name }}</a>
+            {% else %}
+                {{ member.name }}
+            {% endif %}
+            , {{ member.where }}
         </li>
-        <li>Josef Ackerman, University of Guelph, Canada</li>
-        <li>Hrund Andradóttir, University of Iceland, Reykjavik, Iceland</li>
-        <li>Lars Bengtsson, Lund University, Sweden</li>
-        <li>Damien Bouffard, EAWAG, Kastanienbaum, Switzerland</li>
-        <li>Lee Bryant, University of Bath, U.K.</li>
-        <li>Xavier Castamitjana, University of Girona, Spain</li>
-        <li>Giuseppe Ciraolo, University of Palermo, Italy</li>
-        <li>Nikolai Filatov, Karelian Research Centre of RAS, Petrosavodsk, Russia</li>
-        <li>Andrew Folkard, Lancaster University, United Kingdom</li>
-        <li>Georgiy Kirillin, Institute of Freshwater Ecology IGB, Berlin, Germany</li>
-        <li>Charles Lemckert, University of Canberra, Australia</li>
-        <li>Madis-Jaak Lilover, Marine Systems Institute, Tallinn, Estonia</li>
-        <li>Andreas Lorke, University of Koblenz-Landau, Germany</li>
-        <li>Daniel McGinnis, University de Genève, Switzerland</li>
-        <li>Francisco Rueda, University of Granada, Spain</li>
-        <li>Geoffrey Schladow, University of California, Davis, U.S.</li>
-        <li>Adolf Stips, European Commission, Italy</li>
-        <li>Arkady Terzhevik, Karelian Research Centre of RAS, Russia</li>
-        <li>Marco Toffolon, University of Trento, Italy</li>
-        <li>Lars Umlauf, Leibniz-Institute for Baltic Sea Research IOW, Warnemuende, Germany</li>
-        <li>Timo Vesala, University of Helsinki, Finland</li>
-        <li>Danielle J. Wain, 7 Lakes Alliance, Belgrade Lakes, U.S.</li>
-        <li>Alfred Wüest, EPFL, Lausanne, Switzerland</li>
-        <li>Ram Yerubandi, Canada Centre for Inland Waters, Burlington, Canada</li>
+        {% endfor %}
     </ul>
-    <!--    Next workshop:-->
     <h3>Past conferences</h3>
     <div class="timeline">
         {% assign class = "left" %}
@@ -55,12 +38,12 @@ title: Physical Processes in Natural Waters Workshop
             <div class="description">
                 <h2>{{ conf.year }}</h2>
                 {% if conf.next %} <i>Next workshop:</i> {% endif %}
-                {{ conf.name }}
+                {{ conf.where }}
                 {% if conf.url %}<br/><a href="{{ conf.url.href }}">{{ conf.url.title }}</a>{% endif %}
             </div>
         </div>
 
-        {% if class == "left" %} {% assign class = "right" %}  {% else %} {% assign class = "left" %} {% endif %}
+        {% if class == "left" %} {% assign class = "right" %} {% else %} {% assign class = "left" %} {% endif %}
         {% endfor %}
     </div>
 </div>
