@@ -4,37 +4,31 @@
 @import "variables";
 
 // Import bootstrap
-// We don't need all the components
-@import "bootstrap/variables",
-        "bootstrap/mixins",
-        "bootstrap/normalize",
-        "bootstrap/print",
-        "bootstrap/scaffolding",
-        "bootstrap/type",
-        "bootstrap/code",
-        "bootstrap/grid",
-        "bootstrap/tables",
-        "bootstrap/forms",
-        "bootstrap/buttons",
-        "bootstrap/component-animations",
-        "bootstrap/dropdowns",
-        "bootstrap/input-groups",
-        "bootstrap/navs",
-        "bootstrap/navbar",
-        "bootstrap/breadcrumbs",
-        "bootstrap/pagination",
-        "bootstrap/labels",
-        "bootstrap/badges",
-        "bootstrap/thumbnails",
-        "bootstrap/media",
-        "bootstrap/list-group",
-        "bootstrap/panels",
-        "bootstrap/wells",
-        "bootstrap/tooltip",
-        "bootstrap/popovers",
-        "bootstrap/utilities",
-        "bootstrap/responsive-utilities",
-        "fontawesome-free/scss/fontawesome.scss",
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/code";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/tables";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/transitions";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";
+@import "bootstrap/scss/card";
+@import "bootstrap/scss/breadcrumb";
+@import "bootstrap/scss/jumbotron";
+@import "bootstrap/scss/alert";
+@import "bootstrap/scss/media";
+@import "bootstrap/scss/list-group";
+@import "bootstrap/scss/toasts";
+@import "bootstrap/scss/tooltip";
+@import "bootstrap/scss/utilities";
+
+@import "fontawesome-free/scss/fontawesome.scss",
         "fontawesome-free/scss/regular.scss",
         "fontawesome-free/scss/solid.scss";
 
