@@ -25,4 +25,21 @@ jQuery(document).ready(function ($) {
                 this.previousTop = currentTop;
             });
     }
+
+    // Hide banner when it is past the conference date
+    function getCompareDate() {
+        var d = new Date(),
+            month = '' + (d.getMonth() + 1),
+            day = '' + d.getDate(),
+            year = d.getFullYear();
+        if (month.length < 2) month = '0' + month;
+        if (day.length < 2) day = '0' + day;
+        return [year, month, day].join('');
+    }
+
+    $('[future-date]').each(function() {
+        console.log(getCompareDate());
+        if($(this).attr('future-date') < getCompareDate())
+            $(this).remove();
+    });
 });
