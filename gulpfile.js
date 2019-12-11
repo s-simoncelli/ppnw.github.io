@@ -34,7 +34,7 @@ gulp.task('sass', function() {
             sass({
                 outputStyle: 'compressed',
                 includePaths: [
-                    'node_modules/bootstrap-sass/assets/stylesheets',
+                    'node_modules',
                     'node_modules/@fortawesome'
                 ]
             })
@@ -50,7 +50,7 @@ gulp.task('uglify', function () {
         // 'node_modules/respond/dest/respond.min.js',
         'node_modules/html5shiv/dist/html5shiv.min.js',
         'node_modules/jquery/dist/jquery.min.js',
-        'node_modules/bootstrap-sass/assets/javascripts/bootstrap.js',
+        'node_modules/bootstrap/dist/js/bootstrap.js',
         assets + '/js/app.js'
     ])
     .pipe(concat('concat.js'))
