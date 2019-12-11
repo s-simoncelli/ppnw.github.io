@@ -1,102 +1,102 @@
 - year: 2020
-  name: "University of British Columbia, Vancouver, Canada on June 15-19th, 2020"
+  where: "University of British Columbia, Vancouver, Canada on June 15-19th, 2020"
   next: true
   url:
     href: http://ppnw2020.ca
     title: Website
 
 - year: 2019
-  name: Three Gorges Dam, China
+  where: Three Gorges Dam, China
 
 - year: 2018
-  name: Solothurn, Switzerland
+  where: Solothurn, Switzerland
   url:
       href: http://www.unige.ch/PPNW2018/
       title: Website
 
 - year: 2017
-  name: Helsinki, Finland
+  where: Helsinki, Finland
   url:
     href: /files/PPNW2017.pdf
     title: Extended abstracts
 
 - year: 2016
-  name: Bath, UK
+  where: Bath, UK
   url:
     href: /files/PPNW2016.pdf
     title: Proceedings
 
 - year: 2015
-  name: Landau, Germany
+  where: Landau, Germany
   url:
     href: /files/PPNW2015.pdf
     title: Extended abstracts
 
 - year: 2014
-  name: Trento, Italy
+  where: Trento, Italy
   url:
     href: /files/PPNW2014.pdf
     title: Proceedings
 
 - year: 2013
-  name: Queensland, Australia
+  where: Queensland, Australia
 
 - year: 2011
-  name: Burlington, Canada
+  where: Burlington, Canada
   url:
     href: /files/PPNW2011.pdf
     title: Proceedings
 
 - year: 2010
-  name: Reykjavík, Iceland
+  where: Reykjavík, Iceland
 
 - year: 2009
-  name: Palermo, Italy
+  where: Palermo, Italy
 
 - year: 2008
-  name: Lake Tahoe, USA
+  where: Lake Tahoe, USA
 
 - year: 2007
-  name: Warnemuende, Germany
+  where: Warnemuende, Germany
   url:
     href: /files/PPNW2007.pdf
     title: Proceedings
 
 - year: 2006
-  name: Granada, Spain
+  where: Granada, Spain
 
 - year: 2005
-  name: Lancaster, UK
+  where: Lancaster, UK
 
 - year: 2004
-  name: Lund, Sweden
+  where: Lund, Sweden
 
 - year: 2003
-  name: Petrozavodsk, Russia
+  where: Petrozavodsk, Russia
   url:
     href: /files/PPNW2003.pdf
     title: Proceedings
 
 - year: 2001
-  name: Girona, Spain
+  where: Girona, Spain
 
 - year: 2000
-  name: Irkutsk, Russia
+  where: Irkutsk, Russia
 
 - year: 1999
-  name: Estonia
+  where: Estonia
 
 - year: 1998
-  name: Magdeburg, Germany
+  where: Magdeburg, Germany
   url:
     href: /files/PPNW1998.pdf
     title: Proceedings
 
 - year: 1997
-  name: Ispra, Italy
+  where: Ispra, Italy
 
 - year: 1996
-  name: Kastanienbaum, Switzerland
+  where: Kastanienbaum, Switzerland
   url:
     href: /files/PPNW1996.pdf
     title: Proceedings

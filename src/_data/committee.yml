@@ -1,0 +1,76 @@
+- name: Bertram Boehrer
+  title: Chairman
+  email: bertram.boehrer@ufz.de
+  where: "Helmholtz Centre for Environmental Research (UFZ), Germany"
+
+- name: Josef Ackerman
+  where: "University of Guelph, Canada"
+
+- name: Hrund Andradóttir
+  where: "University of Iceland, Reykjavik, Iceland"
+
+- name: Lars Bengtsson
+  where: "Lund University, Sweden"
+
+- name: Damien Bouffard
+  where: "EAWAG, Kastanienbaum, Switzerland"
+
+- name: Lee Bryant
+  where: "University of Bath, U.K."
+
+- name: Xavier Castamitjana
+  where: "University of Girona, Spain"
+
+- name: Giuseppe Ciraolo
+  where: "University of Palermo, Italy"
+
+- name: Nikolai Filatov
+  where: "Karelian Research Centre of RAS, Petrosavodsk, Russia"
+
+- name: Andrew Folkard
+  where: "Lancaster University, United Kingdom"
+
+- name: Georgiy Kirillin
+  where: "Institute of Freshwater Ecology IGB, Berlin, Germany"
+
+- name: Charles Lemckert
+  where: "University of Canberra, Australia"
+
+- name: Madis-Jaak Lilover
+  where: "Marine Systems Institute, Tallinn, Estonia"
+
+- name: Andreas Lorke
+  where: "University of Koblenz-Landau, Germany"
+
+- name: Daniel McGinnis
+  where: "University de Genève, Switzerland"
+
+- name: Francisco Rueda
+  where: "University of Granada, Spain"
+
+- name: Geoffrey Schladow
+  where: "University of California, Davis, U.S."
+
+- name: Adolf Stips
+  where: "European Commission, Italy"
+
+- name: Arkady Terzhevik
+  where: "Karelian Research Centre of RAS, Russia"
+
+- name: Marco Toffolon
+  where: "University of Trento, Italy"
+
+- name: Lars Umlauf
+  where: "Leibniz-Institute for Baltic Sea Research IOW, Warnemuende, Germany"
+
+- name: Timo Vesala
+  where: "University of Helsinki, Finland"
+
+- name: Danielle J. Wain
+  where: "7 Lakes Alliance, Belgrade Lakes, U.S."
+
+- name: Alfred Wüest
+  where: "EPFL, Lausanne, Switzerland"
+
+- name: Ram Yerubandi
+  where: "Canada Centre for Inland Waters, Burlington, Canada"
