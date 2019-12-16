@@ -12,8 +12,8 @@
     fileName: PPNW2019.jpg
     credits: Yao YilongImaginechina/AP Images
   urls:
-      - href: http://ppnw2019.cn
-        title: Official website
+      - href: https://web.archive.org/web/20190221071627/http://ppnw2019.cn/
+        title: Archived website
         iconClass: "fas fa-globe-europe"
 
 - year: 2018
@@ -22,8 +22,8 @@
     fileName: PPNW2018.jpg
     credits: "N/A"
   urls:
-      - href: http://www.unige.ch/PPNW2018/
-        title: Official website
+      - href: https://web.archive.org/web/20181012051944/http://www.unige.ch/PPNW2018/
+        title: Archived website
         iconClass: "fas fa-globe-europe"
 
 - year: 2017
@@ -35,8 +35,8 @@
     - href: /files/PPNW2017.pdf
       title: Extended abstracts
       iconClass: "far fa-file-pdf"
-    - href: http://www.atm.helsinki.fi/ppnw2017/?q=node/1
-      title: Official website
+    - href: https://web.archive.org/web/20190222211320/http://www.atm.helsinki.fi/ppnw2017/?q=node/1
+      title: Archived website
       iconClass: "fas fa-globe-europe"
 
 - year: 2016
@@ -48,30 +48,58 @@
     - href: /files/PPNW2016.pdf
       title: Proceedings
       iconClass: "far fa-file-pdf"
+    - href: https://web.archive.org/web/20170926120505/http://www.ppnw2016.co.uk/index.html
+      title: Archived website
+      iconClass: "fas fa-globe-europe"
 
 - year: 2015
   where: Landau, Germany
+  image:
+    fileName: PPNW2015.jpg
+    credits: "Berthold D."
   urls:
     - href: /files/PPNW2015.pdf
       title: Extended abstracts
       iconClass: "far fa-file-pdf"
+    - href: https://web.archive.org/web/20190222210210/http://www.uni-koblenz-landau.de/en/campus-landau/faculty7/environmental-sciences/uphys-en/ppnw-2015
+      title: Archived website
+      iconClass: "fas fa-globe-europe"
 
 - year: 2014
   where: Trento, Italy
+  image:
+    fileName: PPNW2014.jpg
+    credits: "Wikepdia (https://en.wikipedia.org/wiki/Trento#/media/File:Palazzo_pretorio_di_Trento.jpg)"
   urls:
     - href: /files/PPNW2014.pdf
       title: Proceedings
       iconClass: "far fa-file-pdf"
+    - href: https://web.archive.org/web/20191216102909/https://www.unitn.it/archivio/events/en/ppnw2014.html
+      title: Archived website
+      iconClass: "fas fa-globe-europe"
 
 - year: 2013
   where: Queensland, Australia
+  image:
+    fileName: PPNW2013.jpg
+    credits: "Petra (https://www.flickr.com/photos/chillmimi/13262015235/)"
+  urls:
+    - href: https://web.archive.org/web/20130513134128/https://www.griffith.edu.au/conference/physical-processes-natural-waters-workshop-2013
+      title: Archived website
+      iconClass: "fas fa-globe-europe"
 
 - year: 2011
   where: Burlington, Canada
+  image:
+    fileName: PPNW2011.jpg
+    credits: "City of Burlington (https://www.macleans.ca/economy/canadas-best-communities-to-live-2019/)"
   urls:
     - href: /files/PPNW2011.pdf
       title: Proceedings
       iconClass: "far fa-file-pdf"
+    - href: https://web.archive.org/web/20191216103243/https://www.cawq.ca/cgi-bin/symposium/details.cgi?pk_symposium=25&language=english
+      title: Archived website
+      iconClass: "fas fa-globe-europe"
 
 - year: 2010
   where: Reykjavík, Iceland
