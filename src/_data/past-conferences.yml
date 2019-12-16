@@ -1,5 +1,8 @@
 - year: 2020
   where: "University of British Columbia, Vancouver, Canada on June 15-19th, 2020"
+  image:
+    fileName: PPNW2020.jpg
+    credits: "Colin Zhu (https://www.flickr.com/photos/colinzhu/8045879795/)"
   next: true
   urls:
     - href: http://ppnw2020.ca
@@ -131,15 +134,27 @@
 
 - year: 2006
   where: Granada, Spain
+  image:
+    fileName: PPNW2006.jpg
+    credits: "Getty images"
 
 - year: 2005
   where: Lancaster, UK
+  image:
+    fileName: PPNW2005.jpg
+    credits: "https://www.visitlancashire.com/explore/lancaster"
 
 - year: 2004
   where: Lund, Sweden
+  image:
+    fileName: PPNW2004.jpg
+    credits: "http://cs-conferences.acadiau.ca/euspn-17/keynote-speakers.html"
 
 - year: 2003
   where: Petrozavodsk, Russia
+  image:
+    fileName: PPNW2003.jpg
+    credits: "Sergei Prokudin-Gorskii"
   urls:
     - href: /files/PPNW2003.pdf
       title: Proceedings
@@ -147,14 +162,27 @@
 
 - year: 2001
   where: Girona, Spain
+  image:
+    fileName: PPNW2001.jpg
+    credits: "https://www.britannica.com/"
+
 
 - year: 2000
   where: Irkutsk, Russia
+  image:
+    fileName: PPNW2000.jpg
+    credits: "https://russiatrek.org/"
 
 - year: 1999
   where: Estonia
+  image:
+    fileName: PPNW1999.jpg
+    credits: "https://www.britannica.com/"
 
 - year: 1998
+  image:
+    fileName: PPNW1998.jpg
+    credits: "https://destinationscanner.com/"
   where: Magdeburg, Germany
   urls:
     - href: /files/PPNW1998.pdf
@@ -163,9 +191,15 @@
 
 - year: 1997
   where: Ispra, Italy
+  image:
+    fileName: PPNW1997.jpg
+    credits: ""
 
 - year: 1996
   where: Kastanienbaum, Switzerland
+  image:
+    fileName: PPNW1996.jpg
+    credits: "https://www.hotel.info"
   urls:
     - href: /files/PPNW1996.pdf
       title: Proceedings

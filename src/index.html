@@ -40,7 +40,7 @@ title: Physical Processes in Natural Waters Workshop
         {% for conf in site.data.past-conferences %}
         <div class="block-container {{ class }} {% if conf.next %} highlight{% endif %}">
             <div class="description">
-                <h2>{{ conf.year }}</h2>
+                <h2>{{ conf.year }} {% if conf.next %} - <i>Next workshop</i> {% endif %}</h2>
 
                 <div class="d-flex">
                     {% if conf.image %}
@@ -50,7 +50,6 @@ title: Physical Processes in Natural Waters Workshop
                     {% endif %}
 
                     <div>
-                        {% if conf.next %} <i>Next workshop:</i> {% endif %}
                         {{ conf.where }}
                         {% if conf.urls %}
                             {% for url in conf.urls %}
