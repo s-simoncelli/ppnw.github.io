@@ -103,15 +103,27 @@
 
 - year: 2010
   where: Reykjavík, Iceland
+  image:
+    fileName: PPNW2010.jpg
+    credits: "Patpongs (https://www.telegraph.co.uk/travel/destinations/europe/iceland/reykjavik/articles/reykjavik-travel-guide/)"
 
 - year: 2009
   where: Palermo, Italy
+  image:
+    fileName: PPNW2009.jpg
+    credits: "Rough guides (https://www.roughguides.com/article/you-need-to-visit-palermo-sicily-heres-why/)"
 
 - year: 2008
   where: Lake Tahoe, USA
+  image:
+    fileName: PPNW2008.jpg
+    credits: "Lara Farhadi (https://www.flickr.com/photos/peruvianprincess/8680540700/in/set-72157633317567718)"
 
 - year: 2007
   where: Warnemuende, Germany
+  image:
+    fileName: PPNW2007.jpg
+    credits: "A. Savin (https://en.wikipedia.org/wiki/Warnemünde#/media/File:Rostock_asv2018-05_img65_Warnemuende_view_from_lighthouse.jpg)"
   urls:
     - href: /files/PPNW2007.pdf
       title: Proceedings
