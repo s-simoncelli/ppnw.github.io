@@ -178,6 +178,10 @@
   image:
     fileName: PPNW1999.jpg
     credits: "https://www.britannica.com/"
+  urls:
+    - href: /files/PPNW1999.pdf
+      title: Proceedings
+      iconClass: "far fa-file-pdf"
 
 - year: 1998
   image:
