@@ -179,7 +179,8 @@
     fileName: PPNW1999.jpg
     credits: "https://www.britannica.com/"
   urls:
-    - href: /files/PPNW1999.pdf
+    # Git LFS not supported with Github pages. Use Github link instead
+    - href: https://github.com/s-simoncelli/ppnw-website/raw/master/files/PPNW1999.pdf
       title: Proceedings
       iconClass: "far fa-file-pdf"
 

@@ -1,6 +1,7 @@
 # Source code for PPNW's website
 
 ## Installation
+1. Install GIT LFS from https://git-lfs.github.com
 1. Install jekyllrb following the instructions on https://jekyllrb.com/docs/installation/macos/
 2. Install npm
 3. Type `npm install` or `yarn install` to install the dependencies 
