@@ -1,11 +1,18 @@
-- year: 2020
-  where: "University of British Columbia, Vancouver, Canada on June 15-19th, 2020"
+- year: 2022
+  where: "University of British Columbia, Vancouver, Canada on June 26-30th, 2021"
   image:
     fileName: PPNW2020.jpg
     credits: "Colin Zhu (https://www.flickr.com/photos/colinzhu/8045879795/)"
   next: true
   urls:
     - href: http://ppnw2020.ca
+      title: Website
+      iconClass: "fas fa-globe-europe"
+- year: 2020
+  where: "Online"
+  next: true
+  urls:
+    - href: www.ufz.de/ppnw2020
       title: Website
       iconClass: "fas fa-globe-europe"
 
