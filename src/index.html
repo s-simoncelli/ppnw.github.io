@@ -4,18 +4,12 @@ title: Physical Processes in Natural Waters Workshop
 ---
 
 <div class="block-container">
-    <div class="alert alert-warning" role="alert" future-date="20201619">
-        The workshop at the University of British Columbia (Vancouver, Canada) has been postponed by one more year due to COVID.
-        Therefore, we decided to have a series of online sessions on selected topics during this summer.
-        The sessions have a maximum length of two hours and consist of a few presentations and time for discussion.
-        The video seminar will be held on Zoom. There is no registration required.
-        You can download the online seminar programme and Zoom credentials <a href="/files/2021 PPNW-OMP announcement.pdf">here</a>
-    </div>
-
     <h3>Workshop on Physical Processes in Natural Waters (PPNW)</h3>
     <p>The PPNW workshop explore the physics of lakes and coastal water bodies. They look at the interactions with
         the physical and biogeochemical processes that control water quality, ecosystem functions, and the services
         these systems provide.</p>
+
+    {% include banner.html %}
 
     <p>The open workshop seeks to expand contacts with neighbouring fields such as physical oceanography, the
         atmospheric sciences, and engineering. With forty to sixty participants and a small number of invited
@@ -41,19 +35,17 @@ title: Physical Processes in Natural Waters Workshop
         {% assign class = "left" %}
 
         {% for conf in site.data.past-conferences %}
-        <div class="block-container {{ class }} {% if conf.next %} highlight{% endif %}">
+        <div class="block-container {{ class }}{% if conf.highlight %} highlight{% endif %}">
             <div class="description">
-                <h2>{{ conf.year }} {% if conf.next %} - <i>Next workshop</i> {% endif %}</h2>
-
+                <h2>{{ conf.title }}</h2>
                 <div class="d-flex">
                     {% if conf.image %}
                     <div class="p-2 flex-shrink-1">
                         <img src="img/{{ conf.image.fileName }}" title="Credits: {{ conf.image.credits }}" class="image"/>
                     </div>
                     {% endif %}
-
                     <div>
-                        {{ conf.where }}
+                        {{ conf.description }}
                         {% if conf.urls %}
                             {% for url in conf.urls %}
                                 <br/><i class="{{ url.iconClass }}"></i> <a href="{{ url.href }}" target="_blank">{{ url.title }}</a>

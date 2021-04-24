@@ -19,14 +19,9 @@ Edit the file in `src/_data/committee.yml` following the YAML syntax. Supported 
 ## Add new conferences in the homepage's timeline
 Edit the file in `src/_data/past-conferences.yml` following the YAML syntax. Supported files are:
 
- - name: the member's name
- - title: the member's title
- - email: the member's email address
- - where: the member's location
-
-- year: the year when the conference was or will be held
-- where: the country and city
-- next: set to true to mark the block as the next conference
+- title: the year when the conference was or will be held
+- description: the country and city
+- highlight: set to true to highlight the block with a blue background
 - image: this field contains the following nested fields:
     - fileName: name of the image file in the `src/assets/img` folder
     - credits: Credits to the image
@@ -34,3 +29,6 @@ Edit the file in `src/_data/past-conferences.yml` following the YAML syntax. Sup
     - href: the URL of the link (for proceedings, extended abstracts or conference website)
     - title: the URL title
     - iconClass: the icon class. See https://fontawesome.com/icons
+
+## Change the homepage banner
+Edit the file in `_includes/banner.html`
